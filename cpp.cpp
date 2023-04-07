@@ -1,20 +1,63 @@
+    #include <iostream>
+    using namespace std;
+    int main(){
+        int liczba;
+        cout<<"podaj argument"<<endl;
+        cin>>liczba;
+        cout <<"liczba = "<<liczba<<endl;
+        string wartosc;
+        if(liczba<=0)wartosc="0";
+        if(liczba>0)wartosc="1";
+        cout<<"funkcja="<<wartosc<<endl;
+        return 0;
+    }
+
+
+
+
+/*
 #include <iostream>
 using namespace std;
-int main(){
-    int wiek;
-    cout<<"podaj wiek a ja ci powiem czy jestes stary"<<endl;
-    cin>>wiek;
-    cout <<"wiek ="<<wiek<<endl;
-    string lata;
-    if(wiek<50)lata="jestes mlody";
-    if(wiek>50)lata="jestes stary";/*else wb=""ujemna*/
-    if(wiek==50)lata="zaraz bedziesz stary";
-    cout<<"lata:"<<lata<<endl;
-    return 0;
+int main() {
+int liczba ;
+cout << "Podaj liczbe, jesli jest dodatnia wypisze lub zerowa wypisze 0 a jesli ujemna to 1" << endl;
+cin>>liczba;
+cout << "Liczba = " << liczba << endl;
+int wartosc=17;
+// Zastosowanie instrukcji warunkowych:
+if (liczba < 0){
+wartosc = 0;
+cout<<"podales liczbe ujemna"<<endl;
+}//do ifa jest przyklejona tylko następna jedna instrukcja.
+// Jak chcesz przykleić więcej to musisz zrobić blok z nawiasów klamrowych
+else  wartosc=1;
+cout << "wartosc funkcji: " << wartosc << endl;
+return 0;
+}*/
+
+
+
+
+
+
+/*
+    #include <iostream>
+using namespace std;
+int main() {
+int liczba ;
+cout<<"podaj liczbę a powiem czy jest czy dodatnia ujemna"<<endl;
+cin>>liczba;
+cout << "Liczba = " << liczba << endl;
+string znak;
+// Zastosowanie instrukcji warunkowych:
+if (liczba > 0) znak = "dodatnia";
+else if(liczba<0) znak="ujemna";
+else znak="zero";
+cout << "Znak liczby: " << znak << endl;
+return 0;
 }
 
-
-
+*/
 
 
 
