@@ -1,3 +1,38 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int liczba;
+    cout << "poda liczbe a ja ci powiem czy sie dzieli przez 5 i reszta wynosi 2" << endl;
+    cin >> liczba;
+    if (liczba%5==2)
+        cout <<"dzieli sie przez 5 i reszta z dzielenia wynosi 2"<< endl;
+    else if(liczba==0)
+        cout<<"Zero"<<endl;
+    else
+        cout <<"ta liczba dzielona przez 5 nie daje reszty z dzielnia 2"<< endl;
+     
+    return(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*
     #include <iostream>
     using namespace std;
     int main(){
@@ -11,6 +46,7 @@
         cout<<"funkcja="<<wartosc<<endl;
         return 0;
     }
+    */
     
 /*      OBLICZA CZY PARZYSTA
 #include <iostream>
