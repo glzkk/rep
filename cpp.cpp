@@ -11,11 +11,26 @@
         cout<<"funkcja="<<wartosc<<endl;
         return 0;
     }
-
-
-
-
-/*
+    
+/*      OBLICZA CZY PARZYSTA
+#include <iostream>
+using namespace std;
+int main()
+{
+    int liczba;
+    cout << "wprowadz liczbe" << endl;
+    cin >> liczba;
+    if (liczba%2==0)
+        cout <<"parzysta"<< endl;
+    else if(liczba==0)
+        cout<<"zero"<<endl;
+    else
+        cout <<"nie jest parzysta"<< endl;
+     
+    return(0);
+}
+*/
+/*          przyklad z klamrami
 #include <iostream>
 using namespace std;
 int main() {
@@ -40,7 +55,7 @@ return 0;
 
 
 
-/*
+/*  SKRYPT DODATNIA CZY UJEMNA I ZERO
     #include <iostream>
 using namespace std;
 int main() {
@@ -60,34 +75,7 @@ return 0;
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   // ZADANIE //COOLA
 
 /*#include <iostream>
 using namespace std;
@@ -110,7 +98,7 @@ int main()
 */
 
 
-
+//                LICZBA PI
 /*#include <iostream>
 using namespace std;
 namespace p1 {
@@ -130,7 +118,7 @@ int main()
 */
 
 
-
+        //ODWROTNOSC
 
 //#include <iostream>
 //using namespace std;
@@ -158,24 +146,3 @@ int main()
 
 
 
-// #include <iostream>
-
-// int main()
-// {
-//     char c ='j';//j=106 ASCII
-//     int n1 = 1;
-//     unsigned char n2 = 1;
-//     unsigned int n3 = 1;
-//     int liczba= (int)c;
-//     // liczba=c;
-//     //int k=n2;
-//     std::cout << liczba<<"\n";
-//     std::cout << "char: " << c <<"\n"<< " int: " << +c << '\n'
-//               << "-1, where 1 is signed: " << -n1 << '\n'
-//               << " unsigned char: " << n2<< '\n'
-//               << "-1, where 1 is unsigned char: " << -n2 << '\n'
-//               << "-1, where 1 is unsigned int: " << -n3 << '\n';
-//     char a[3];
-//     std::cout << "size of array: " << sizeof a << '\n'
-//               << "size of pointer: " << sizeof +a << '\n';
-// }
