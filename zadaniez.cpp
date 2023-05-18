@@ -7,12 +7,9 @@ cout<<"Podaj liczbe a powiem ci czy dzilenia przez 5 z reszta 2"<<endl;
 cin>>liczba;
 cout << "Podana liczba to = " << liczba << endl;
 string dzielenie;
-
 if (liczba %5 == 2) dzielenie = "Reszta z dzielenia to 2 ";
-
- else  dzielenie = "Liczbe nie daje reszty 2";
-
-cout << dzielenie << endl;
+else  dzielenie="Liczbe nie daje reszty 2";
+cout<< dzielenie<<endl;
 return 0;
 }
 
