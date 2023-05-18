@@ -3,16 +3,18 @@
 using namespace std;
 int main()
 {
+    char litera;
+    cout << "podaj literke" << endl;
+    cin >> litera;
     int liczba;
-    cout << "poda liczbe a ja ci powiem czy sie dzieli przez 5 i reszta wynosi 2" << endl;
-    cin >> liczba;
-    if (liczba%5==2)
-        cout <<"dzieli sie przez 5 i reszta z dzielenia wynosi 2"<< endl;
-    else if(liczba==0)
-        cout<<"Zero"<<endl;
+    liczba=(int)litera;
+    if(liczba>64&&liczba<91);//Duza liczba
+    cout<<"twoja literka jest duza"<<endl;
+    if(liczba>96&&liczba<123);
+    cout<<"twoj literka jest mala"<<endl;
     else
-        cout <<"ta liczba dzielona przez 5 nie daje reszty z dzielnia 2"<< endl;
-     
+    cout<<"podales zla liczbe"<endl;
+
     return(0);
 }
 
