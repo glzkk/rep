@@ -1,0 +1,4 @@
+0 Adrian Pasterka 17 42
+1 Kacper Botor 17 47
+2 Wiktor Marek 16 41
+3 Dominik Burda 18 54

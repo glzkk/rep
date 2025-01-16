@@ -1,53 +1,41 @@
 
 #include <iostream>
 using namespace std;
-int main() {
-int liczba ;
-cout<<"Podaj liczbe a powiem ci czy dzilenia przez 5 z reszta 2"<<endl;
-cin>>liczba;
-cout << "Podana liczba to = " << liczba << endl;
-string dzielenie;
-
-if (liczba %5 == 2) dzielenie = "Reszta z dzielenia to 2 ";
-
- else  dzielenie = "Liczbe nie daje reszty 2";
-
-cout << dzielenie << endl;
-return 0;
+int main()
+{
+    float liczba;
+    float liczba2;
+    float suma = 0;
+    cout << "Podaj liczbe1" << endl;
+    cout << "Podaj liczbe2" << endl;
+    cin >> liczba;
+    cin >> liczba2;
+    while (liczba2 == 0)
+    {
+        cout << "podales zero!";
+        cin >> liczba2;
+    }
+    suma = liczba / liczba2;
+    cout << suma << endl;
+    return 0;
 }
 
+/*
+  #include <iostream>
+  using namespace std;
+  int main(){
+      int liczba;
+      cout<<"podaj argument"<<endl;
+      cin>>liczba;
+      cout <<"liczba = "<<liczba<<endl;
+      string wartosc;
+      if(liczba<=0)wartosc="0";
+      if(liczba>0)wartosc="1";
+      cout<<"funkcja="<<wartosc<<endl;
+      return 0;
+  }
+  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /*
-    #include <iostream>
-    using namespace std;
-    int main(){
-        int liczba;
-        cout<<"podaj argument"<<endl;
-        cin>>liczba;
-        cout <<"liczba = "<<liczba<<endl;
-        string wartosc;
-        if(liczba<=0)wartosc="0";
-        if(liczba>0)wartosc="1";
-        cout<<"funkcja="<<wartosc<<endl;
-        return 0;
-    }
-    */
-    
 /*      OBLICZA CZY PARZYSTA
 #include <iostream>
 using namespace std;
@@ -62,7 +50,7 @@ int main()
         cout<<"zero"<<endl;
     else
         cout <<"nie jest parzysta"<< endl;
-     
+
     return(0);
 }
 */
@@ -86,11 +74,6 @@ cout << "wartosc funkcji: " << wartosc << endl;
 return 0;
 }*/
 
-
-
-
-
-
 /*  SKRYPT DODATNIA CZY UJEMNA I ZERO
     #include <iostream>
 using namespace std;
@@ -110,8 +93,7 @@ return 0;
 
 */
 
-
-   // ZADANIE //COOLA
+// ZADANIE //COOLA
 
 /*#include <iostream>
 using namespace std;
@@ -133,7 +115,6 @@ int main()
 
 */
 
-
 //                LICZBA PI
 /*#include <iostream>
 using namespace std;
@@ -153,32 +134,21 @@ int main()
 }
 */
 
+// ODWROTNOSC
 
-        //ODWROTNOSC
-
-//#include <iostream>
-//using namespace std;
-//int main()
+// #include <iostream>
+// using namespace std;
+// int main()
 //{
-//int liczba = 7; // 0111
- //int wynik;
+// int liczba = 7; // 0111
+// int wynik;
 
-//wynik=(~(-65));
-//cout<<wynik<<endl;
-
+// wynik=(~(-65));
+// cout<<wynik<<endl;
 
 // wynik=2147483647;
 // cout<<wynik<<endl;
 
 // cout<<sizeof( int)<<endl;
-//return 0;
+// return 0;
 //}
-
-
-
-
-
-
-
-
-

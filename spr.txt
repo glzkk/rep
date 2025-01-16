@@ -1,0 +1,3 @@
+hubert 14
+tomek 15
+synek 5
